@@ -1,0 +1,19 @@
+{
+  "name": "SettingsStore",
+  "version": "1.0.0",
+  "description": "Bare-metal flash-based settings storage for CH32V003 and WCH RISC-V MCUs. Emulates EEPROM using internal flash with optional CRC16 integrity check.",
+  "keywords": ["flash", "eeprom-emulation", "non-volatile", "settings", "CH32V003", "WCH", "RISC-V", "bare-metal"],
+  "authors": {
+    "name": "A. Kolesov",
+    "maintainer": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndyTakker/SettingsStore.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/AndyTakker/SettingsStore",
+  "frameworks": "*",
+  "platforms": ["wch-riscv"],
+  "headers": ["SettingsStore.h"]
+}
